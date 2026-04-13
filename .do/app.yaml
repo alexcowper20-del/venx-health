@@ -1,0 +1,10 @@
+name: vexn
+static_sites:
+- name: vexn-site
+  github:
+    repo: alexcowper20-del/venx-health
+    branch: main
+    deploy_on_push: true
+  source_dir: /
+  index_document: index.html
+  error_document: index.html
