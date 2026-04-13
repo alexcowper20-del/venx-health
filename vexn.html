@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vexn — A complete system, formulated for achieving your goals. Pharmaceutical-grade peptides for weight loss, recovery and longevity. Free UK shipping.">
+<meta name="keywords" content="peptides UK, weight loss peptides, retatrutide, BPC-157, TB-500, semaglutide, buy peptides">
+<meta property="og:title" content="Vexn — Formulated for Your Goals">
+<meta property="og:description" content="Research-grade peptides. Lab-verified. Free UK shipping. Next-day delivery.">
+<title>Vexn — A Complete System, Formulated for Achieving Your Goals</title>
+
+<style>
+@font-face {
+  font-family: 'Owners Wide';
+  src: local('Owners Wide'), local('OwnersWide-Bold');
+  font-weight: 400 900;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+
+:root {
+  --y: #F2DC00;
+  --yd: #d4bf00;
+  --yp: #fefce8;
+  --b: #1427E8;
+  --bd: #0f1dcc;
+  --bp: #eef0fe;
+  --white: #ffffff;
+  --off: #f8f8f6;
+  --off2: #f2f2ef;
+  --ink: #0a0a0a;
+  --ink2: #1c1c1c;
+  --muted: #5a5a5a;
+  --muted2: #888;
+  --border: #e4e4e0;
+  --border2: #d0d0ca;
+  --display: 'Owners Wide', 'Arial Black', Arial, sans-serif;
+  --body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --r: 4px;
+  --r2: 8px;
+  --r3: 14px;
+  --ease: all 0.18s cubic-bezier(.4,0,.2,1);
+}
+
+body {
+  font-family: var(--body);
+  background: var(--white);
+  color: var(--ink);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+button { font-family: var(--body); cursor: pointer; border: none; background: none; }
+svg { display: block; flex-shrink: 0; }
+
+/* ── TICKER ───────────────────────────── */
+.ticker {
+  background: var(--b);
+  overflow: hidden;
+  padding: 10px 0;
+}
+.ticker-track {
+  display: flex;
+  animation: tick 32s linear infinite;
+  width: max-content;
+}
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+  font-family: var(--body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.8);
+  white-space: nowrap;
+}
+.ticker-item::after { content: '|'; color: rgba(255,255,255,0.2); }
+@keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ── HEADER ───────────────────────────── */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+.hdr {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 36px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+}
+.logo-mark {
+  width: 28px;
+  height: 28px;
+  background: var(--y);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.hdr-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.hdr-nav a {
+  font-size: 13px;
+  color: var(--muted);
+  transition: var(--ease);
+  font-weight: 400;
+}
+.hdr-nav a:hover { color: var(--ink); }
+.hdr-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.btn-tg {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: var(--r);
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--off);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  transition: var(--ease);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.btn-tg:hover { border-color: var(--b); color: var(--b); background: var(--bp); }
+.cart-btn {
+  width: 34px;
+  height: 34px;
+  background: var(--off);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition: var(--ease);
+  position: relative;
+  cursor: pointer;
+}
+.cart-btn:hover { border-color: var(--b); color: var(--b); }
+.cart-pip {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background: var(--b);
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── HERO ─────────────────────────────── */
+.hero {
+  border-bottom: 1px solid var(--border);
+  background: var(--white);
+}
+.hero-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 36px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 64px;
+  align-items: center;
+  min-height: 86vh;
+}
+.hero-left { padding: 72px 0; }
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bp);
+  border: 1px solid #c5caff;
+  color: var(--b);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: var(--r);
+  margin-bottom: 26px;
+}
+.hp-dot {
+  width: 5px;
+  height: 5px;
+  background: var(--b);
+  border-radius: 50%;
+  animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+h1 {
+  font-family: var(--display);
+  font-size: clamp(40px, 5.5vw, 72px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.96;
+  color: var(--ink);
+  margin-bottom: 22px;
+}
+h1 .blue { color: var(--b); }
+h1 .yellow-hl {
+  position: relative;
+  display: inline-block;
+}
+h1 .yellow-hl::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 2px;
+  height: 6px;
+  background: var(--y);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+.hero-sub {
+  font-size: 15.5px;
+  color: var(--muted);
+  line-height: 1.72;
+  max-width: 460px;
+  margin-bottom: 36px;
+  font-weight: 400;
+}
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  height: 48px;
+  padding: 0 28px;
+  border-radius: var(--r2);
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--b);
+  color: #fff;
+  transition: var(--ease);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-primary:hover { background: var(--bd); transform: translateY(-1px); }
+.btn-secondary {
+  height: 48px;
+  padding: 0 24px;
+  border-radius: var(--r2);
+  font-size: 13px;
+  font-weight: 500;
+  border: 1.5px solid var(--border2);
+  color: var(--ink);
+  transition: var(--ease);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+}
+.btn-secondary:hover { border-color: var(--b); color: var(--b); }
+.hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.hs { }
+.hs strong {
+  display: block;
+  font-family: var(--display);
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  line-height: 1;
+}
+.hs span { font-size: 11px; color: var(--muted); }
+.hs-sep { width: 1px; height: 32px; background: var(--border); }
+
+/* Hero card */
+.hero-card {
+  background: var(--off);
+  border: 1px solid var(--border);
+  border-radius: var(--r3);
+  overflow: hidden;
+}
+.hc-img {
+  height: 260px;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hc-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--b);
+  color: #fff;
+  font-family: var(--display);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--r);
+}
+.hc-body { padding: 20px; }
+.hc-cat {
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--b);
+  margin-bottom: 5px;
+}
+.hc-name {
+  font-family: var(--display);
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  margin-bottom: 5px;
+  line-height: 1.1;
+}
+.hc-spec { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+.hc-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 16px; }
+.tag {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: var(--white);
+}
+.tag.blue { background: var(--bp); color: var(--b); border-color: #c5caff; }
+.tag.yellow { background: var(--yp); color: #7a6a00; border-color: #e8d000; }
+.hc-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.hc-price {
+  font-family: var(--display);
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+.hc-sub { font-size: 11px; color: var(--muted); margin-top: 1px; }
+.btn-atc {
+  height: 36px;
+  padding: 0 18px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r);
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: var(--ease);
+}
+.btn-atc:hover { background: var(--yd); }
+
+/* Social proof float */
+.hero-proof {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+}
+.proof-av {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--yp);
+  border: 1px solid #e8d000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--display);
+  font-size: 9px;
+  font-weight: 900;
+  color: #7a6a00;
+  flex-shrink: 0;
+}
+.proof-text strong { display: block; font-size: 12px; font-weight: 600; color: var(--ink); }
+.proof-text span { font-size: 10.5px; color: var(--muted); }
+
+/* ── SHIPPING TICKER ──────────────────── */
+.ship-ticker {
+  background: var(--y);
+  overflow: hidden;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.ship-track {
+  display: flex;
+  animation: tick 20s linear infinite;
+  width: max-content;
+}
+.ship-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 24px;
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.ship-item::after { content: '·'; color: rgba(0,0,0,0.25); font-size: 16px; }
+
+/* ── TRUST ROW ────────────────────────── */
+.trust-row { border-bottom: 1px solid var(--border); background: var(--off); }
+.trust-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 36px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.tr-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 24px 16px;
+  border-right: 1px solid var(--border);
+}
+.tr-item:last-child { border-right: none; }
+.tr-icon {
+  width: 38px;
+  height: 38px;
+  background: var(--y);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--ink);
+}
+.tr-text strong { display: block; font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.tr-text span { font-size: 11.5px; color: var(--muted); }
+
+/* ── SECTION ──────────────────────────── */
+.sec { padding: 88px 36px; }
+.si { max-width: 1320px; margin: 0 auto; }
+.s-eye {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--b);
+  margin-bottom: 10px;
+}
+.s-h2 {
+  font-family: var(--display);
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  line-height: 1.0;
+  margin-bottom: 12px;
+}
+.s-body {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.72;
+  max-width: 500px;
+  margin-bottom: 48px;
+}
+
+/* ── PRODUCTS ─────────────────────────── */
+.products-bg { background: var(--off); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.tab-row { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 36px; }
+.tab {
+  height: 30px;
+  padding: 0 14px;
+  border-radius: var(--r);
+  font-size: 11.5px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  transition: var(--ease);
+  background: var(--white);
+}
+.tab:hover { border-color: var(--b); color: var(--b); }
+.tab.on { background: var(--b); color: #fff; border-color: var(--b); font-weight: 600; }
+.pgrid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
+.pcard {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r3);
+  overflow: hidden;
+  transition: var(--ease);
+  cursor: pointer;
+}
+.pcard:hover { border-color: #aab4ff; box-shadow: 0 4px 20px rgba(20,39,232,0.07); transform: translateY(-2px); }
+.pc-img {
+  height: 190px;
+  background: var(--off);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+.pc-img.yb { background: var(--yp); }
+.pc-img.bb { background: var(--bp); }
+.pc-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: var(--display);
+  font-size: 8.5px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--r);
+}
+.pb-blue { background: var(--b); color: #fff; }
+.pb-yellow { background: var(--y); color: var(--ink); }
+.pb-red { background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; }
+.pb-grey { background: var(--white); color: var(--muted); border: 1px solid var(--border); }
+.pc-body { padding: 15px 15px 13px; }
+.pc-cat {
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--b);
+  margin-bottom: 4px;
+}
+.pc-name {
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  margin-bottom: 5px;
+  line-height: 1.15;
+}
+.pc-desc { font-size: 11.5px; color: var(--muted); line-height: 1.6; margin-bottom: 10px; }
+.pc-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 11px;
+  border-top: 1px solid var(--border);
+}
+.pc-price {
+  font-family: var(--display);
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--ink);
+}
+.pc-was { font-size: 11px; color: var(--muted2); text-decoration: line-through; margin-left: 4px; }
+.pc-sub { font-size: 10px; color: var(--muted); }
+.btn-atc-sm {
+  height: 30px;
+  padding: 0 12px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r);
+  font-family: var(--display);
+  font-size: 8.5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: var(--ease);
+}
+.btn-atc-sm:hover { background: var(--yd); }
+.pc-rating { display: flex; align-items: center; gap: 4px; margin-bottom: 7px; }
+.stars { color: var(--b); font-size: 9.5px; letter-spacing: 0.5px; }
+.rc { font-size: 10px; color: var(--muted); }
+
+/* ── BILLBOARD ────────────────────────── */
+.billboard {
+  background: var(--ink);
+  position: relative;
+  overflow: hidden;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+.bb-bg-img {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--ink) 40%, rgba(10,10,10,0.3) 100%);
+  z-index: 1;
+}
+.bb-img-right {
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 50%;
+  overflow: hidden;
+}
+.bb-img-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.bb-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 80px 36px;
+  width: 100%;
+}
+.bb-eye {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(242,220,0,0.65);
+  margin-bottom: 14px;
+}
+.bb-h2 {
+  font-family: var(--display);
+  font-size: clamp(30px, 4vw, 52px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: #fff;
+  line-height: 1.0;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
+.bb-h2 .yellow { color: var(--y); }
+.bb-body {
+  font-size: 15px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.72;
+  max-width: 460px;
+  margin-bottom: 30px;
+}
+.btn-bb {
+  height: 48px;
+  padding: 0 28px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r2);
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: var(--ease);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-bb:hover { background: var(--yd); transform: translateY(-1px); }
+
+/* ── CATEGORIES ───────────────────────── */
+.cats-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+.cat-card {
+  position: relative;
+  border-radius: var(--r3);
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  transition: var(--ease);
+  background: var(--off);
+}
+.cat-card:hover { border-color: var(--b); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(20,39,232,0.07); }
+.cat-card img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.55); transition: var(--ease); }
+.cat-card:hover img { filter: brightness(0.65); transform: scale(1.03); }
+.cat-no-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, var(--off), var(--off2));
+}
+.cat-label {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 20px 16px 16px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.82));
+}
+.cat-tag {
+  display: inline-block;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--y);
+  color: var(--ink);
+  padding: 2px 7px;
+  border-radius: var(--r);
+  margin-bottom: 7px;
+}
+.cat-name {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #fff;
+  line-height: 1.1;
+}
+.cat-count { font-size: 10.5px; color: rgba(255,255,255,0.5); margin-top: 3px; }
+
+/* ── BENEFITS ─────────────────────────── */
+.benefits-bg { background: var(--off); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.ben-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.ben-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r3);
+  overflow: hidden;
+  transition: var(--ease);
+}
+.ben-card:hover { border-color: #aab4ff; }
+.ben-img { height: 190px; overflow: hidden; background: var(--off2); }
+.ben-img img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.7); transition: var(--ease); }
+.ben-card:hover .ben-img img { filter: brightness(0.8); transform: scale(1.03); }
+.ben-body { padding: 20px; }
+.ben-icon {
+  width: 38px;
+  height: 38px;
+  background: var(--y);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  margin-bottom: 13px;
+}
+.ben-title {
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.ben-desc { font-size: 12.5px; color: var(--muted); line-height: 1.7; }
+
+/* ── LAB REPORTS ──────────────────────── */
+.lab-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 28px;
+}
+.lab-table th {
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1.5px solid var(--border2);
+  background: var(--off);
+}
+.lab-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13.5px;
+  color: var(--ink2);
+}
+.lab-table tr:hover td { background: var(--off); }
+.lab-table td a { color: var(--b); transition: var(--ease); }
+.lab-table td a:hover { opacity: 0.7; }
+.purity {
+  font-family: var(--display);
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--b);
+}
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 12px;
+  margin-top: 28px;
+}
+.cert-card {
+  background: var(--off);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  transition: var(--ease);
+}
+.cert-card:hover { border-color: #aab4ff; }
+.cert-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--y);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+.cert-text strong { display: block; font-size: 12.5px; font-weight: 600; color: var(--ink); margin-bottom: 2px; }
+.cert-text span { font-size: 10.5px; color: var(--muted); }
+
+/* ── REVIEWS ──────────────────────────── */
+.rv-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.rv {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r3);
+  padding: 20px;
+  transition: var(--ease);
+}
+.rv:hover { border-color: #aab4ff; }
+.rv-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.rv-av {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--bp);
+  color: var(--b);
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.rv-name { font-size: 13px; font-weight: 600; color: var(--ink); }
+.rv-product { font-size: 10.5px; color: var(--muted); }
+.rv-stars { color: var(--b); font-size: 11px; letter-spacing: 1px; margin-bottom: 9px; }
+.rv-text { font-size: 13px; color: var(--ink2); line-height: 1.68; font-style: italic; }
+.rv-date { font-size: 10px; color: var(--muted); margin-top: 9px; }
+.rv-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #bbf7d0;
+  padding: 2px 7px;
+  border-radius: var(--r);
+  margin-top: 8px;
+}
+
+/* ── FAQ ──────────────────────────────── */
+.faq-bg { background: var(--off); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.faq-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+.faq-list { display: flex; flex-direction: column; gap: 2px; }
+.fq {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  overflow: hidden;
+  transition: var(--ease);
+}
+.fq:hover { border-color: #aab4ff; }
+.fq-q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink);
+  gap: 10px;
+}
+.fq-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: var(--ease);
+}
+.fq.open .fq-icon { background: var(--b); border-color: var(--b); color: #fff; transform: rotate(45deg); }
+.fq-a {
+  display: none;
+  padding: 0 16px 13px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+.fq.open .fq-a { display: block; }
+.faq-side {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r3);
+  padding: 28px 24px;
+}
+.fs-eye { font-size: 9.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--b); margin-bottom: 11px; }
+.fs-title { font-family: var(--display); font-size: 20px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em; color: var(--ink); margin-bottom: 10px; line-height: 1.1; }
+.fs-body { font-size: 13px; color: var(--muted); line-height: 1.7; margin-bottom: 20px; }
+.btn-calc {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 40px;
+  padding: 0 20px;
+  background: var(--b);
+  color: #fff;
+  border-radius: var(--r2);
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: var(--ease);
+}
+.btn-calc:hover { background: var(--bd); }
+
+/* ── TELEGRAM CTA ─────────────────────── */
+.tg-section {
+  background: var(--b);
+  padding: 0 36px;
+}
+.tg-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 64px;
+  align-items: center;
+}
+.tg-eye {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 12px;
+}
+.tg-h2 {
+  font-family: var(--display);
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: #fff;
+  line-height: 1.0;
+  margin-bottom: 14px;
+}
+.tg-h2 .yellow { color: var(--y); }
+.tg-body { font-size: 14.5px; color: rgba(255,255,255,0.55); line-height: 1.72; margin-bottom: 26px; }
+.tg-perks { display: flex; flex-direction: column; gap: 9px; margin-bottom: 28px; }
+.tg-perk {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.75);
+}
+.tg-check {
+  width: 18px;
+  height: 18px;
+  background: rgba(242,220,0,0.15);
+  border: 1px solid rgba(242,220,0,0.35);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--y);
+  flex-shrink: 0;
+}
+.btn-tg-join {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 46px;
+  padding: 0 26px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r2);
+  font-family: var(--display);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: var(--ease);
+}
+.btn-tg-join:hover { background: var(--yd); transform: translateY(-1px); }
+.tg-10 { font-size: 11px; color: rgba(255,255,255,0.45); margin-top: 11px; }
+.tg-10 strong { color: var(--y); }
+/* Telegram form card */
+.tg-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: var(--r3);
+  padding: 26px;
+}
+.tg-card-title {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.tg-card-sub { font-size: 12.5px; color: rgba(255,255,255,0.45); margin-bottom: 18px; line-height: 1.6; }
+.tg-field { display: flex; flex-direction: column; gap: 3px; margin-bottom: 9px; }
+.tg-field label { font-size: 9.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.4); }
+.tg-field input {
+  height: 38px;
+  padding: 0 11px;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: var(--r);
+  font-family: var(--body);
+  font-size: 13.5px;
+  color: #fff;
+  outline: none;
+  transition: var(--ease);
+}
+.tg-field input::placeholder { color: rgba(255,255,255,0.3); }
+.tg-field input:focus { border-color: rgba(242,220,0,0.4); }
+.btn-join-full {
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r);
+  font-family: var(--display);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: var(--ease);
+}
+.btn-join-full:hover { background: var(--yd); }
+
+/* ── NEWSLETTER ───────────────────────── */
+.nl-sec {
+  background: var(--ink);
+  padding: 72px 36px;
+  text-align: center;
+  border-top: 1px solid #1a1a1a;
+}
+.nl-inner { max-width: 480px; margin: 0 auto; }
+.nl-eye { font-size: 10px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(242,220,0,0.55); margin-bottom: 12px; }
+.nl-title {
+  font-family: var(--display);
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: #fff;
+  line-height: 1.0;
+  margin-bottom: 10px;
+}
+.nl-title .yellow { color: var(--y); }
+.nl-sub { font-size: 14px; color: rgba(255,255,255,0.4); margin-bottom: 26px; line-height: 1.7; }
+.nl-form {
+  display: flex;
+  gap: 7px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--r2);
+  padding: 5px 5px 5px 16px;
+  max-width: 380px;
+  margin: 0 auto;
+}
+.nl-input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: var(--body);
+  font-size: 13.5px;
+  color: #fff;
+  min-width: 0;
+}
+.nl-input::placeholder { color: rgba(255,255,255,0.3); }
+.btn-nl {
+  height: 34px;
+  padding: 0 18px;
+  background: var(--y);
+  color: var(--ink);
+  border-radius: var(--r);
+  font-family: var(--display);
+  font-size: 9.5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: var(--ease);
+}
+.btn-nl:hover { background: var(--yd); }
+.nl-note { font-size: 10px; color: rgba(255,255,255,0.25); margin-top: 10px; }
+
+/* ── FOOTER ───────────────────────────── */
+.footer { background: #060606; padding: 52px 36px 28px; }
+.footer-inner { max-width: 1320px; margin: 0 auto; }
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 52px;
+  padding-bottom: 40px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.f-logo { display: flex; align-items: center; gap: 8px; margin-bottom: 13px; }
+.f-logo-text {
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.f-desc { font-size: 12px; color: rgba(255,255,255,0.25); line-height: 1.72; margin-bottom: 18px; max-width: 240px; }
+.f-socials { display: flex; gap: 6px; }
+.f-soc {
+  width: 28px;
+  height: 28px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.3);
+  cursor: pointer;
+  transition: var(--ease);
+}
+.f-soc:hover { background: var(--y); border-color: var(--y); color: var(--ink); }
+.f-col h5 {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+  margin-bottom: 13px;
+}
+.f-col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.f-col ul li a { font-size: 12.5px; color: rgba(255,255,255,0.22); transition: var(--ease); }
+.f-col ul li a:hover { color: rgba(255,255,255,0.7); }
+.disclaimer {
+  font-size: 10px;
+  line-height: 1.75;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: var(--r);
+  padding: 12px 15px;
+  margin-bottom: 16px;
+  color: rgba(255,255,255,0.15);
+}
+.disclaimer strong { color: rgba(255,255,255,0.2); }
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgba(255,255,255,0.15);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.f-links { display: flex; gap: 16px; }
+.f-links a { color: rgba(255,255,255,0.15); transition: var(--ease); }
+.f-links a:hover { color: rgba(255,255,255,0.5); }
+.pay-row { display: flex; gap: 4px; }
+.pay {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.18);
+}
+
+/* ── RESPONSIVE ───────────────────────── */
+@media(max-width:1100px){
+  .hero-inner{grid-template-columns:1fr;min-height:auto}
+  .hero-left{padding:60px 0 40px}
+  .hero-card{max-width:440px}
+  .pgrid{grid-template-columns:repeat(2,1fr)}
+  .cats-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-inner{grid-template-columns:repeat(2,1fr)}
+  .tr-item:nth-child(2){border-right:none}
+  .tg-inner{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr 1fr;gap:28px}
+  .faq-wrap{grid-template-columns:1fr}
+  .cert-grid{grid-template-columns:repeat(2,1fr)}
+  .ben-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:720px){
+  .hdr-nav{display:none}
+  .hdr{padding:0 20px}
+  .sec{padding:60px 20px}
+  .hero-inner{padding:0 20px}
+  .pgrid,.rv-grid,.ben-grid{grid-template-columns:1fr}
+  .cats-grid{grid-template-columns:1fr 1fr}
+  .trust-inner{grid-template-columns:1fr}
+  .tr-item{border-right:none;border-bottom:1px solid var(--border)}
+  .tr-item:last-child{border-bottom:none}
+  .footer-top{grid-template-columns:1fr}
+  .footer{padding:48px 20px 24px}
+  .tg-section{padding:0 20px}
+  .nl-sec{padding:56px 20px}
+  .nl-form{flex-direction:column;border-radius:var(--r2);padding:10px}
+  .cert-grid{grid-template-columns:1fr}
+  .ship-ticker{padding:9px 0}
+  .bb-content{padding:60px 20px}
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <div class="ticker-item">Free gifts with month 2 &amp; 3</div>
+    <div class="ticker-item">Save 15% monthly recurring</div>
+    <div class="ticker-item">Cancel anytime · no commitment</div>
+    <div class="ticker-item">Next-day delivery available</div>
+    <div class="ticker-item">QR-authenticated every order</div>
+    <div class="ticker-item">98%+ purity guaranteed</div>
+    <div class="ticker-item">Free UK-wide shipping</div>
+    <div class="ticker-item">Free gifts with month 2 &amp; 3</div>
+    <div class="ticker-item">Save 15% monthly recurring</div>
+    <div class="ticker-item">Cancel anytime · no commitment</div>
+    <div class="ticker-item">Next-day delivery available</div>
+    <div class="ticker-item">QR-authenticated every order</div>
+    <div class="ticker-item">98%+ purity guaranteed</div>
+    <div class="ticker-item">Free UK-wide shipping</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="hdr">
+    <a href="/" class="logo">
+      <div class="logo-mark">
+        <!-- LOGO PLACEHOLDER — swap with your logo image -->
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <circle cx="5" cy="8" r="2.5" stroke="#0a0a0a" stroke-width="1.5"/>
+          <circle cx="12" cy="4.5" r="2" stroke="#0a0a0a" stroke-width="1.3"/>
+          <circle cx="12" cy="11.5" r="2" stroke="#0a0a0a" stroke-width="1.3"/>
+          <line x1="7.4" y1="7" x2="10.2" y2="5.8" stroke="#0a0a0a" stroke-width="1.2"/>
+          <line x1="7.4" y1="9" x2="10.2" y2="10.2" stroke="#0a0a0a" stroke-width="1.2"/>
+        </svg>
+      </div>
+      <span class="logo-text">Vexn</span>
+    </a>
+    <nav class="hdr-nav">
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#dosage">Dosage Calculator</a>
+      <a href="#labs">Lab Reports</a>
+    </nav>
+    <div class="hdr-right">
+      <button class="btn-tg">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 6.5L12 1.5l-3 10-3-3.5-5 3 2-5z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+        Telegram
+      </button>
+      <div class="cart-btn" role="button" aria-label="Cart">
+        <svg width="15" height="14" viewBox="0 0 15 14" fill="none"><path d="M1 1h2l2.5 7.5h6.5L13.5 3H3.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="12" r="1" fill="currentColor"/><circle cx="11" cy="12" r="1" fill="currentColor"/></svg>
+        <span class="cart-pip">0</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-pill"><span class="hp-dot"></span> Clinically Formulated · Research Grade</div>
+      <h1>A Complete<br>System, Built<br>For <span class="yellow-hl">Your</span><br><span class="blue">Goals.</span></h1>
+      <p class="hero-sub">Vexn sources pharmaceutical-grade peptides — independently lab-tested, QR-authenticated, and cold-chain delivered. Created to accelerate your progress.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+          Shop All Products
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="btn-secondary" onclick="document.getElementById('labs').scrollIntoView({behavior:'smooth'})">
+          View Lab Reports
+        </button>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><strong>4.9★</strong><span>Trustpilot rating</span></div>
+        <div class="hs-sep"></div>
+        <div class="hs"><strong>99.4%</strong><span>Purity verified</span></div>
+        <div class="hs-sep"></div>
+        <div class="hs"><strong>12K+</strong><span>Active customers</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="hero-card">
+        <div class="hc-img yb">
+          <!-- Product vial SVG -->
+          <svg width="70" height="130" viewBox="0 0 70 130" fill="none">
+            <rect x="21" y="18" width="28" height="84" rx="4" fill="white" stroke="#e4e4e0" stroke-width="1.3"/>
+            <rect x="22.5" y="58" width="25" height="43" rx="2" fill="#eef0fe"/>
+            <rect x="25" y="8" width="20" height="12" rx="3" fill="#1427E8"/>
+            <line x1="28" y1="34" x2="42" y2="34" stroke="#e4e4e0" stroke-width="0.8"/>
+            <line x1="28" y1="39" x2="42" y2="39" stroke="#e4e4e0" stroke-width="0.8"/>
+            <line x1="28" y1="44" x2="38" y2="44" stroke="#e4e4e0" stroke-width="0.8"/>
+            <line x1="35" y1="8" x2="35" y2="2" stroke="#bbb" stroke-width="1.3" stroke-linecap="round"/>
+            <rect x="17" y="102" width="36" height="5" rx="2.5" fill="#e4e4e0"/>
+            <text x="35" y="80" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial" font-size="9" fill="#aab4ff" font-weight="600">Rx</text>
+          </svg>
+          <div class="hc-badge">Bestseller</div>
+        </div>
+        <div class="hc-body">
+          <div class="hc-cat">Weight Management · GLP-1</div>
+          <div class="hc-name">Retatrutide 40mg</div>
+          <div class="hc-spec">Triple agonist · 99.3% pure · Cold-chain shipped</div>
+          <div class="hc-tags">
+            <span class="tag blue">99.3% pure</span>
+            <span class="tag">COA included</span>
+            <span class="tag">QR auth</span>
+          </div>
+          <div class="hc-foot">
+            <div>
+              <div class="hc-price">£179.99</div>
+              <div class="hc-sub">£152 on subscription</div>
+            </div>
+            <button class="btn-atc">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-proof">
+        <div class="proof-av">RM</div>
+        <div class="proof-text">
+          <strong>Roetta M. just purchased</strong>
+          <span>Retatrutide 40mg · Few seconds ago</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHIPPING TICKER -->
+<div class="ship-ticker">
+  <div class="ship-track">
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+    <div class="ship-item">Free Shipping UK Nationwide</div>
+  </div>
+</div>
+
+<!-- TRUST ROW -->
+<div class="trust-row">
+  <div class="trust-inner">
+    <div class="tr-item">
+      <div class="tr-icon">
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M8.5 2l5.5 2.8v4.7c0 3.2-2.3 5.5-5.5 6.5C5.3 15 3 12.7 3 9.5V4.8L8.5 2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M5.5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="tr-text"><strong>GMP Certified</strong><span>ISO-compliant synthesis</span></div>
+    </div>
+    <div class="tr-item">
+      <div class="tr-icon">
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><circle cx="8.5" cy="8.5" r="6.5" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 8.5l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="tr-text"><strong>Clinically Verified</strong><span>HPLC tested · 98%+ purity</span></div>
+    </div>
+    <div class="tr-item">
+      <div class="tr-icon">
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><rect x="3" y="5" width="11" height="8.5" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 5V4a3 3 0 016 0v1" stroke="currentColor" stroke-width="1.3"/><circle cx="8.5" cy="9" r="1.4" fill="currentColor"/></svg>
+      </div>
+      <div class="tr-text"><strong>Authenticity Guaranteed</strong><span>QR scratch-code every order</span></div>
+    </div>
+    <div class="tr-item">
+      <div class="tr-icon">
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M2.5 8.5l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="tr-text"><strong>30-Day Guarantee</strong><span>No-hassle returns &amp; replacements</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section class="sec products-bg" id="shop">
+  <div class="si">
+    <div class="s-eye">Our Range</div>
+    <h2 class="s-h2">Best Sellers</h2>
+    <p class="s-body">Every product synthesised to pharmaceutical grade, cold-chain delivered, and QR-verified for authenticity.</p>
+    <div class="tab-row">
+      <button class="tab on">Best Sellers</button>
+      <button class="tab">Weight Management</button>
+      <button class="tab">Strength &amp; Recovery</button>
+      <button class="tab">Cellular Repair</button>
+    </div>
+    <div class="pgrid">
+
+      <article class="pcard">
+        <div class="pc-img yb">
+          <svg width="52" height="96" viewBox="0 0 52 96" fill="none"><rect x="14" y="12" width="24" height="68" rx="3" fill="white" stroke="#e4e4e0" stroke-width="1.2"/><rect x="15.5" y="48" width="21" height="31" rx="2" fill="#eef0fe"/><rect x="18" y="4" width="16" height="10" rx="2.5" fill="#1427E8"/><line x1="20" y1="28" x2="32" y2="28" stroke="#e4e4e0" stroke-width="0.8"/><line x1="20" y1="33" x2="32" y2="33" stroke="#e4e4e0" stroke-width="0.8"/><line x1="20" y1="38" x2="28" y2="38" stroke="#e4e4e0" stroke-width="0.8"/><line x1="26" y1="4" x2="26" y2="0" stroke="#bbb" stroke-width="1.2" stroke-linecap="round"/><rect x="10" y="80" width="32" height="5" rx="2.5" fill="#e4e4e0"/></svg>
+          <div class="pc-badge pb-blue">Top Seller</div>
+        </div>
+        <div class="pc-body">
+          <div class="pc-rating"><span class="stars">★★★★★</span><span class="rc">847</span></div>
+          <div class="pc-cat">Weight Management</div>
+          <div class="pc-name">Retatrutide 40mg</div>
+          <div class="pc-desc">Triple agonist targeting GLP-1, GIP, and glucagon receptors. Designed for effortless weight control.</div>
+          <div class="pc-foot">
+            <div><span class="pc-price">£179.99</span><div class="pc-sub">£152 on subscription</div></div>
+            <button class="btn-atc-sm">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard">
+        <div class="pc-img bb">
+          <svg width="52" height="96" viewBox="0 0 52 96" fill="none"><rect x="14" y="12" width="24" height="68" rx="3" fill="white" stroke="#e4e4e0" stroke-width="1.2"/><rect x="15.5" y="56" width="21" height="23" rx="2" fill="#eef0fe"/><rect x="18" y="4" width="16" height="10" rx="2.5" fill="#1427E8"/><line x1="20" y1="28" x2="32" y2="28" stroke="#e4e4e0" stroke-width="0.8"/><line x1="20" y1="33" x2="32" y2="33" stroke="#e4e4e0" stroke-width="0.8"/><line x1="26" y1="4" x2="26" y2="0" stroke="#bbb" stroke-width="1.2" stroke-linecap="round"/><rect x="10" y="80" width="32" height="5" rx="2.5" fill="#e4e4e0"/></svg>
+          <div class="pc-badge pb-yellow">New</div>
+        </div>
+        <div class="pc-body">
+          <div class="pc-rating"><span class="stars">★★★★★</span><span class="rc">312</span></div>
+          <div class="pc-cat">Weight Management</div>
+          <div class="pc-name">Retatrutide 20mg</div>
+          <div class="pc-desc">Entry-level Retatrutide. Ideal for first-time users beginning a weight management protocol.</div>
+          <div class="pc-foot">
+            <div><span class="pc-price">£129.99</span><div class="pc-sub">£110 on subscription</div></div>
+            <button class="btn-atc-sm">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard">
+        <div class="pc-img yb">
+          <svg width="52" height="96" viewBox="0 0 52 96" fill="none"><rect x="14" y="12" width="24" height="68" rx="3" fill="white" stroke="#e4e4e0" stroke-width="1.2"/><rect x="15.5" y="42" width="21" height="37" rx="2" fill="#eef0fe"/><rect x="18" y="4" width="16" height="10" rx="2.5" fill="#1427E8"/><line x1="20" y1="28" x2="32" y2="28" stroke="#e4e4e0" stroke-width="0.8"/><line x1="20" y1="33" x2="32" y2="33" stroke="#e4e4e0" stroke-width="0.8"/><line x1="26" y1="4" x2="26" y2="0" stroke="#bbb" stroke-width="1.2" stroke-linecap="round"/><rect x="10" y="80" width="32" height="5" rx="2.5" fill="#e4e4e0"/></svg>
+          <div class="pc-badge pb-red">Reduced</div>
+        </div>
+        <div class="pc-body">
+          <div class="pc-rating"><span class="stars">★★★★★</span><span class="rc">524</span></div>
+          <div class="pc-cat">Weight Management</div>
+          <div class="pc-name">Retatrutide 60mg</div>
+          <div class="pc-desc">High-dose Retatrutide for advanced protocols. Superior weight reduction outcomes.</div>
+          <div class="pc-foot">
+            <div><span class="pc-price">£209.99</span><span class="pc-was">£219.99</span><div class="pc-sub">Reduced price</div></div>
+            <button class="btn-atc-sm">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard">
+        <div class="pc-img">
+          <svg width="52" height="96" viewBox="0 0 52 96" fill="none"><rect x="8" y="10" width="36" height="64" rx="14" fill="white" stroke="#e4e4e0" stroke-width="1.2"/><rect x="9.5" y="42" width="33" height="31" rx="12" fill="#eef0fe"/><rect x="15" y="2" width="22" height="10" rx="3" fill="#1427E8"/><rect x="6" y="74" width="40" height="5" rx="2.5" fill="#e4e4e0"/></svg>
+          <div class="pc-badge pb-red">Reduced</div>
+        </div>
+        <div class="pc-body">
+          <div class="pc-rating"><span class="stars">★★★★★</span><span class="rc">693</span></div>
+          <div class="pc-cat">Cellular Repair &amp; Anti-Aging</div>
+          <div class="pc-name">Glow Stack</div>
+          <div class="pc-desc">BPC157 + TB500 + GHK-CU precision-engineered regenerative blend for tissue repair and cellular resilience.</div>
+          <div class="pc-foot">
+            <div><span class="pc-price">£129.99</span><span class="pc-was">£179.99</span><div class="pc-sub">Reduced price</div></div>
+            <button class="btn-atc-sm">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- BILLBOARD -->
+<section class="billboard">
+  <div class="bb-bg-img"></div>
+  <div class="bb-img-right">
+    <img src="https://clovahealth.co/images/CPS.png" alt="" onerror="this.style.display='none'">
+  </div>
+  <div class="bb-content">
+    <div class="bb-eye">Clarity Through Science</div>
+    <h2 class="bb-h2">A Complete System,<br>Formulated for<br><span class="yellow">Your Goals.</span></h2>
+    <p class="bb-body">Created to accelerate your progress. The Vexn Performance Stack is designed to support your training, competitive performance, and optimise your daily habits. We believe you need nothing but purity for your pursuit.</p>
+    <button class="btn-bb" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">
+      Shop Now
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="sec">
+  <div class="si">
+    <div class="s-eye">Browse by goal</div>
+    <h2 class="s-h2">Categories</h2>
+    <p class="s-body">Every compound built to support a specific outcome. Find yours.</p>
+    <div class="cats-grid">
+      <div class="cat-card">
+        <img src="https://clovahealth.co/images/2.jpg" alt="Weight Management" onerror="this.style.display='none'">
+        <div class="cat-label"><div class="cat-tag">Weight</div><div class="cat-name">Weight Management</div><div class="cat-count">5 products</div></div>
+      </div>
+      <div class="cat-card">
+        <img src="https://clovahealth.co/images/1.jpg" alt="Strength & Recovery" onerror="this.style.display='none'">
+        <div class="cat-label"><div class="cat-tag">Recovery</div><div class="cat-name">Strength &amp; Recovery</div><div class="cat-count">4 products</div></div>
+      </div>
+      <div class="cat-card">
+        <img src="https://clovahealth.co/images/3.jpg" alt="Cellular Repair" onerror="this.style.display='none'">
+        <div class="cat-label"><div class="cat-tag">Anti-Aging</div><div class="cat-name">Cellular Repair &amp; Anti-Aging</div><div class="cat-count">3 products</div></div>
+      </div>
+      <div class="cat-card">
+        <img src="https://clovahealth.co/images/science1.webp" alt="Melanocortin Research" onerror="this.style.display='none'">
+        <div class="cat-label"><div class="cat-tag">Research</div><div class="cat-name">Melanocortin Research</div><div class="cat-count">2 products</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section class="sec benefits-bg">
+  <div class="si">
+    <div class="s-eye">Science &amp; Benefits</div>
+    <h2 class="s-h2">Wellness Benefits</h2>
+    <p class="s-body">Every compound backed by peer-reviewed research, formulated to deliver measurable outcomes.</p>
+    <div class="ben-grid">
+      <div class="ben-card">
+        <div class="ben-img"><img src="https://clovahealth.co/images/1.jpg" alt="Physical Performance" onerror="this.parentElement.style.background='var(--off2)'"></div>
+        <div class="ben-body">
+          <div class="ben-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none"><circle cx="8.5" cy="8.5" r="3" stroke="currentColor" stroke-width="1.4"/><path d="M1 8.5h2M14 8.5h2M4.5 4.5l1.4 1.4M11.1 11.1l1.4 1.4M4.5 12.5l1.4-1.4M11.1 5.9l1.4-1.4M8.5 1v2M8.5 14v2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
+          <div class="ben-title">Physical Performance</div>
+          <div class="ben-desc">TB-500 has been found to aid performance during prolonged exercise. Studies suggest it is key for strength, power, and high-intensity endurance, as well as thermoregulation.</div>
+        </div>
+      </div>
+      <div class="ben-card">
+        <div class="ben-img"><img src="https://clovahealth.co/images/2.jpg" alt="Cognitive Function" onerror="this.parentElement.style.background='var(--off2)'"></div>
+        <div class="ben-body">
+          <div class="ben-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M8.5 3C5.5 3 3 5.5 3 8.5S5.5 14 8.5 14 14 11.5 14 8.5 11.5 3 8.5 3z" stroke="currentColor" stroke-width="1.4"/><path d="M6 8.5c0-1.4 1.1-2.5 2.5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><line x1="8.5" y1="6" x2="8.5" y2="7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><line x1="8.5" y1="10" x2="8.5" y2="11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
+          <div class="ben-title">Cognitive Function</div>
+          <div class="ben-desc">NAD+ is linked to maintenance of normal brain function, helping enhance physical and mental abilities, lift mood, and repair cellular damage — influencing nerve signal transmission.</div>
+        </div>
+      </div>
+      <div class="ben-card">
+        <div class="ben-img"><img src="https://clovahealth.co/images/science1.webp" alt="Muscular Recovery" onerror="this.parentElement.style.background='var(--off2)'"></div>
+        <div class="ben-body">
+          <div class="ben-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 11.5V9a5.5 5.5 0 0111 0v2.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M1 11.5h3.5v2a1 1 0 01-1 1h-1.5a1 1 0 01-1-1v-2zm11 0H15.5v2a1 1 0 01-1 1h-1.5a1 1 0 01-1-1v-2z" stroke="currentColor" stroke-width="1.3"/></svg></div>
+          <div class="ben-title">Muscular Recovery</div>
+          <div class="ben-desc">Advanced peptides such as BPC-157 play a significant role in post-exercise recovery. Studies show significant reductions in muscle soreness and improved perceived recovery.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAB REPORTS -->
+<section class="sec" id="labs">
+  <div class="si">
+    <div class="s-eye">Transparency</div>
+    <h2 class="s-h2">Lab Reports</h2>
+    <p class="s-body">Full third-party analysis on every product. We publish every result — independently verified by Janoshik.</p>
+    <table class="lab-table">
+      <thead>
+        <tr>
+          <th>Peptide</th>
+          <th>Lab</th>
+          <th>Purity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="#">Retatrutide 20mg</a></td><td>Janoshik</td><td><span class="purity">99.07%</span></td></tr>
+        <tr><td><a href="#">Retatrutide 40mg</a></td><td>Janoshik</td><td><span class="purity">99.28%</span></td></tr>
+        <tr><td><a href="#">Retatrutide 60mg</a></td><td>Janoshik</td><td><span class="purity">99.45%</span></td></tr>
+        <tr><td><a href="#">Wolverine (BPC-157 + TB-500)</a></td><td>Janoshik</td><td><span class="purity">99.11%</span></td></tr>
+        <tr><td><a href="#">Glow Stack (BPC157+TB500+GHK-CU)</a></td><td>Janoshik</td><td><span class="purity">98.94%</span></td></tr>
+      </tbody>
+    </table>
+    <div class="cert-grid">
+      <div class="cert-card"><div class="cert-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M4.5 8l2.5 2.5 5-5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="cert-text"><strong>GMP Certified</strong><span>Manufacturing standard</span></div></div>
+      <div class="cert-card"><div class="cert-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M5 8l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="cert-text"><strong>Clinically Verified</strong><span>Peer-reviewed formulas</span></div></div>
+      <div class="cert-card"><div class="cert-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="5" width="10" height="8" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M5.5 5V4a2.5 2.5 0 015 0v1" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="9" r="1.3" fill="currentColor"/></svg></div><div class="cert-text"><strong>QR Authenticated</strong><span>Every order verified</span></div></div>
+      <div class="cert-card"><div class="cert-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2l5.5 2.8v4.4c0 3-2.2 5.2-5.5 6-3.3-.8-5.5-3-5.5-6V4.8L8 2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div><div class="cert-text"><strong>ISO 17025</strong><span>Third-party lab testing</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec products-bg">
+  <div class="si">
+    <div class="s-eye">Trustpilot · Rated 4.9/5</div>
+    <h2 class="s-h2">Real People, Real Results</h2>
+    <p class="s-body">Every review from a confirmed purchaser. We never edit, filter, or incentivise testimonials.</p>
+    <div class="rv-grid">
+      <div class="rv">
+        <div class="rv-top"><div class="rv-av">AM</div><div><div class="rv-name">Alex M.</div><div class="rv-product">DE · 118 reviews</div></div></div>
+        <div class="rv-stars">★★★★★</div>
+        <div class="rv-text">"Customer service was excellent. I had a couple of questions before ordering and the team was very helpful and polite throughout."</div>
+        <div class="rv-date">12 hours ago</div>
+        <div class="rv-verified"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg> Verified</div>
+      </div>
+      <div class="rv">
+        <div class="rv-top"><div class="rv-av">SK</div><div><div class="rv-name">Sarah K.</div><div class="rv-product">UK · 84 reviews</div></div></div>
+        <div class="rv-stars">★★★★★</div>
+        <div class="rv-text">"Ordered Saturday, arrived Sunday. Had an issue with the pen — had a replacement dispatched within 10 minutes. Head and shoulders above any other supplier."</div>
+        <div class="rv-date">1 day ago</div>
+        <div class="rv-verified"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg> Verified</div>
+      </div>
+      <div class="rv">
+        <div class="rv-top"><div class="rv-av">KP</div><div><div class="rv-name">Karen P.</div><div class="rv-product">UK · 57 reviews</div></div></div>
+        <div class="rv-stars">★★★★★</div>
+        <div class="rv-text">"Brilliant company, products and service — so much so I just purchased my second pen. Cannot recommend highly enough."</div>
+        <div class="rv-date">3 days ago</div>
+        <div class="rv-verified"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg> Verified</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec faq-bg" id="faq">
+  <div class="si">
+    <div class="s-eye">Questions</div>
+    <h2 class="s-h2">Frequently Asked Questions</h2>
+    <div class="faq-wrap">
+      <div class="faq-list">
+        <div class="fq open">
+          <div class="fq-q" onclick="fq(this)">What are peptides? <span class="fq-icon">+</span></div>
+          <div class="fq-a">Peptides are molecules made by linking two or more amino acids together. When a chain contains fewer than around 50 amino acids, it is a peptide. They perform a wide range of biological functions and are used in scientific research and wellness applications.</div>
+        </div>
+        <div class="fq">
+          <div class="fq-q" onclick="fq(this)">How should I store my peptides? <span class="fq-icon">+</span></div>
+          <div class="fq-a">Store peptides in a refrigerator at 2–8°C to preserve stability and effectiveness. Once reconstituted, use within 30 days and keep refrigerated. Pre-filled pens should be brought to room temperature before use.</div>
+        </div>
+        <div class="fq">
+          <div class="fq-q" onclick="fq(this)">How do I calculate my dosage? <span class="fq-icon">+</span></div>
+          <div class="fq-a">Use our online dosage calculator which accounts for your body weight, pen concentration, and desired dose to give you a precise measurement every time.</div>
+        </div>
+        <div class="fq">
+          <div class="fq-q" onclick="fq(this)">How can I pay for my order? <span class="fq-icon">+</span></div>
+          <div class="fq-a">We accept Apple Pay, Google Pay, and all major debit and credit cards. All payments are processed securely.</div>
+        </div>
+        <div class="fq">
+          <div class="fq-q" onclick="fq(this)">How long does delivery take? <span class="fq-icon">+</span></div>
+          <div class="fq-a">Orders placed before 4pm Monday–Friday are eligible for next-day delivery where available. All orders ship in temperature-controlled packaging. The most accurate estimate is shown at checkout.</div>
+        </div>
+        <div class="fq">
+          <div class="fq-q" onclick="fq(this)">How can I verify my product is genuine? <span class="fq-icon">+</span></div>
+          <div class="fq-a">Each product comes with a scratchable QR code. After scratching and scanning, you receive a certificate of authentication. This is a one-use, tamper-evident process. Contact us immediately if the code fails.</div>
+        </div>
+      </div>
+      <div class="faq-side">
+        <div class="fs-eye">Tools</div>
+        <div class="fs-title">Dosage Calculator</div>
+        <div class="fs-body">Not sure how much to use? Our dosage calculator takes your body weight, pen concentration, and desired dose to give you a precise, personalised measurement — no guesswork required.</div>
+        <button class="btn-calc">
+          Open Calculator
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M2 5.5h7M6 2.5L9 5.5 6 8.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TELEGRAM CTA -->
+<section class="tg-section">
+  <div class="tg-inner">
+    <div>
+      <div class="tg-eye">Community</div>
+      <div class="tg-h2">Join the<br><span class="yellow">Vexn</span><br>Community</div>
+      <p class="tg-body">Be first to hear about new product launches, pre-order discounts, prize giveaways, and exclusive member-only offers.</p>
+      <div class="tg-perks">
+        <div class="tg-perk"><div class="tg-check"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div> New product launch alerts</div>
+        <div class="tg-perk"><div class="tg-check"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div> Pre-order discounts &amp; reserve drops</div>
+        <div class="tg-perk"><div class="tg-check"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div> Expert dosing guidance &amp; support</div>
+        <div class="tg-perk"><div class="tg-check"><svg width="8" height="8" viewBox="0 0 8 8" fill="none"><path d="M1 4l2 2 4-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div> Member-only giveaways &amp; prize draws</div>
+      </div>
+      <button class="btn-tg-join">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M1 6.5L12 1.5 9 12 6 8.5 1 11.5 3 6.5z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+        Join Telegram — Free
+      </button>
+      <div class="tg-10">+ Get <strong>10% off</strong> your first order when you join</div>
+    </div>
+    <div class="tg-card">
+      <div class="tg-card-title">Join the Club</div>
+      <div class="tg-card-sub">Subscribe for product updates, insight, and exclusive member offers.</div>
+      <div class="tg-field"><label>First Name</label><input type="text" placeholder="Your name"></div>
+      <div class="tg-field"><label>Email</label><input type="email" placeholder="your@email.com"></div>
+      <div class="tg-field"><label>Phone (optional)</label><input type="tel" placeholder="+44 ..."></div>
+      <button class="btn-join-full">Join Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="nl-sec">
+  <div class="nl-inner">
+    <div class="nl-eye">Stay Informed</div>
+    <div class="nl-title">Join the<br><span class="yellow">Vexn Club.</span></div>
+    <p class="nl-sub">Subscribe for product updates, insight and exclusive offers.</p>
+    <div class="nl-form">
+      <input class="nl-input" type="email" placeholder="Email address" autocomplete="email">
+      <button class="btn-nl">Subscribe</button>
+    </div>
+    <p class="nl-note">No spam. Unsubscribe any time.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="disclaimer">
+      <strong>Medical Disclaimer:</strong> All products are for research purposes only and are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Statements have not been evaluated by the MHRA or FDA. Always consult a qualified healthcare professional before use. Products should only be used under medical supervision.
+    </div>
+    <div class="footer-top">
+      <div>
+        <div class="f-logo">
+          <div class="logo-mark" style="width:24px;height:24px">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="5" cy="8" r="2.5" stroke="#0a0a0a" stroke-width="1.5"/><circle cx="12" cy="4.5" r="2" stroke="#0a0a0a" stroke-width="1.3"/><circle cx="12" cy="11.5" r="2" stroke="#0a0a0a" stroke-width="1.3"/><line x1="7.4" y1="7" x2="10.2" y2="5.8" stroke="#0a0a0a" stroke-width="1.2"/><line x1="7.4" y1="9" x2="10.2" y2="10.2" stroke="#0a0a0a" stroke-width="1.2"/></svg>
+          </div>
+          <span class="f-logo-text">Vexn</span>
+        </div>
+        <p class="f-desc">Pharmaceutical-grade peptide compounds. Lab-verified, cold-chain delivered, QR-authenticated. Built to support your goals.</p>
+        <div class="f-socials">
+          <div class="f-soc"><svg width="11" height="11" viewBox="0 0 13 13" fill="none"><rect x="1" y="1" width="11" height="11" rx="3" stroke="currentColor" stroke-width="1.2"/><circle cx="6.5" cy="6.5" r="2.4" stroke="currentColor" stroke-width="1.1"/><circle cx="9.5" cy="3.5" r="0.5" fill="currentColor"/></svg></div>
+          <div class="f-soc"><svg width="11" height="11" viewBox="0 0 13 13" fill="none"><path d="M1 7L12 2 9 12 6 8.5 1 11.5 3 6.5z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></div>
+          <div class="f-soc"><svg width="11" height="11" viewBox="0 0 13 13" fill="none"><path d="M1 2h4l2.5 6.5L10 2h4l-5 9H6z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></div>
+        </div>
+      </div>
+      <div class="f-col">
+        <h5>Shop Peptides</h5>
+        <ul>
+          <li><a href="#">Shop All</a></li>
+          <li><a href="#">Retatrutide</a></li>
+          <li><a href="#">BPC-157</a></li>
+          <li><a href="#">TB-500</a></li>
+          <li><a href="#">GHK-CU</a></li>
+          <li><a href="#">NAD+</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">About Vexn</a></li>
+          <li><a href="#">Lab Reports</a></li>
+          <li><a href="#">Dosage Calculator</a></li>
+          <li><a href="#">Telegram Community</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© Vexn UK 2025</span>
+      <div class="f-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+        <a href="#">Accessibility</a>
+      </div>
+      <div class="pay-row">
+        <span class="pay">VISA</span>
+        <span class="pay">MC</span>
+        <span class="pay">AMEX</span>
+        <span class="pay">APPLE PAY</span>
+        <span class="pay">G PAY</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- SCHEMA -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Vexn","url":"https://vexn.co","description":"Pharmaceutical-grade peptides for weight loss, recovery and longevity. Lab-verified, cold-chain shipped."}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are peptides?","acceptedAnswer":{"@type":"Answer","text":"Peptides are molecules made by linking two or more amino acids. They perform biological functions and are used in research and wellness."}},{"@type":"Question","name":"How should I store my peptides?","acceptedAnswer":{"@type":"Answer","text":"Store at 2–8°C. Once reconstituted, refrigerate and use within 30 days."}}]}
+</script>
+
+<script>
+function fq(el){
+  const item=el.closest('.fq');
+  const open=item.classList.contains('open');
+  document.querySelectorAll('.fq').forEach(i=>i.classList.remove('open'));
+  if(!open)item.classList.add('open');
+}
+document.querySelectorAll('.tab').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    this.classList.add('on');
+  });
+});
+document.querySelectorAll('.btn-atc,.btn-atc-sm').forEach(btn=>{
+  btn.addEventListener('click',function(){
+    const o=this.textContent;
+    this.textContent='Added';
+    setTimeout(()=>this.textContent=o,1500);
+  });
+});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}
+  });
+});
+const hdr=document.querySelector('.header');
+window.addEventListener('scroll',()=>{
+  hdr.style.boxShadow=window.scrollY>8?'0 1px 20px rgba(0,0,0,0.08)':'';
+});
+</script>
+</body>
+</html>
